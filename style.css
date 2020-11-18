@@ -1,0 +1,198 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: #d3ab08;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_block {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;   
+}
+.header_logo {
+    padding: 20px;   
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+.header_link {
+    color: whitesmoke;
+    padding-right: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.main {
+    margin: 0 auto;
+    background: url(../image/picbg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.main_photo {
+    padding-top: 200px;
+}
+.quote {
+    margin-top: 0;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 55px;
+    font-weight: 200;  
+}
+.our_service, .our_pricing {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-right: 3px;
+}
+.service_header, .pricing_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+}
+.our_service span, .our_pricing span {
+    color: #ffcc01;
+}
+.vl {
+    border-left: 3px solid #000;
+    height: 35px;
+    margin: 5px 1px;
+}
+.vl2 {
+    border-left: 3px solid #ffcc01;
+    height: 35px;
+    margin: 5px 1px;
+}
+.our_service_text, .our_pricing_text {
+    padding-left: 3px;
+}
+.service_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service_item_header {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: capitalize;    
+}
+.service_item_slider {
+    padding: 10px 30px;
+    box-sizing: border-box;
+    margin: 17px;
+    width: 47%;
+    height: 230px;
+    font-size: 20px;
+    font-weight: 100;
+    background: #ffcc01;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    border: 3px solid rgb(#ffcc01);  
+}
+.service_item_option, .service_item_friendly, 
+.service_item_design {
+    width: 47%;
+    margin: 17px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 100;
+    box-sizing: border-box;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 2px solid rgba(128,128,128, 0.5);
+}
+.service_item_container {
+    display: flex;
+    justify-content: space-between;
+}
+.service_item_link_first {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.service_item_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+.hamburger {
+    display: none;
+}
+.pricing_table {
+    background: #ffcc01;
+    margin-top: 15px;
+    padding: 5px;  
+}
+.pricing_table_header {
+    border: 1px solid whitesmoke; 
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-left: 3px;
+}
+
+.pricing_info_container {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;   
+}
+.pricing_info_block {
+    text-align: center;
+    width: 25%;   
+}
+.pricing_info {
+    border: 1px solid whitesmoke;
+    margin-left: 3px; 
+}
+button {
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+button a {
+    text-decoration: none;
+    color: #000;
+}
+.footer_container {
+    height: 150px;
+    background: #ffcc01;
+}
+.footer_networks {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.footer_img {
+    background: #000;
+    width: 25px;
+    height: 25px;
+    margin: 30px 10px;
+    padding: 5px;
+}
+.footer_img img {
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+}
+.footer_copyrights {
+    color: whitesmoke;
+    text-align: center;
+}
